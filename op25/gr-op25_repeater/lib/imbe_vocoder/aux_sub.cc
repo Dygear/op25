@@ -39,9 +39,9 @@
 //		Pointer to bits allocation array 
 //
 //-----------------------------------------------------------------------------
-const Word16 *get_bit_allocation_arr(Word16 num_harms)
+const unsigned short *get_bit_allocation_arr(unsigned short num_harms)
 {
-	Word16 offset_in_word, index;
+	unsigned short offset_in_word, index;
 
 	if(num_harms == NUM_HARMS_MIN)
 		return &bit_allocation_tbl[0];
